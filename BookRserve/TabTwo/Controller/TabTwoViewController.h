@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TabTwoViewController.h
 //  BookRserve
 //
 //  Created by jay on 2019/3/30.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface TabTwoViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

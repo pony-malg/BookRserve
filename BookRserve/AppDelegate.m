@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PublicTool.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSUserDefaults *users = [NSUserDefaults standardUserDefaults];
+    if ([users objectForKey:@"username"]) {
+        [PublicTool gotoMainViewControlelr];
+    }
+    
     return YES;
 }
 

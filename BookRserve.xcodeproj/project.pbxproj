@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690B9C122250470400FBEA77 /* NetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 690B9C112250470400FBEA77 /* NetWorkTool.m */; };
+		690B9C1A225054AC00FBEA77 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690B9C19225054AC00FBEA77 /* HeaderView.m */; };
+		690B9C1D225060A400FBEA77 /* HaveSellBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 690B9C1C225060A400FBEA77 /* HaveSellBookCell.m */; };
+		690B9C202250B64400FBEA77 /* IssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690B9C1F2250B64400FBEA77 /* IssueViewController.m */; };
+		690B9C232250BCD000FBEA77 /* SubmitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 690B9C212250BCD000FBEA77 /* SubmitCell.m */; };
+		690B9C262250C46300FBEA77 /* FooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690B9C252250C46300FBEA77 /* FooterView.m */; };
+		690B9C2B2250C9DD00FBEA77 /* buyBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 690B9C2A2250C9DD00FBEA77 /* buyBookCell.m */; };
+		690BF6722251A15F000C48C8 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BF66E2251A15F000C48C8 /* NSObject+YYModel.m */; };
+		690BF6732251A15F000C48C8 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BF6702251A15F000C48C8 /* YYClassInfo.m */; };
+		690BF6772251A527000C48C8 /* MyBookList.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BF6762251A527000C48C8 /* MyBookList.m */; };
+		690BF67A2251B132000C48C8 /* MyInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BF6792251B132000C48C8 /* MyInfoModel.m */; };
+		690BF67D22523185000C48C8 /* ActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 690BF67B22523184000C48C8 /* ActivityCell.m */; };
+		69178E6422561807004276B6 /* TakePartBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69178E6322561807004276B6 /* TakePartBookViewController.m */; };
+		69178E6722561859004276B6 /* BuyBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69178E6622561859004276B6 /* BuyBookViewController.m */; };
 		691BC553224F92A60051725A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BC552224F92A60051725A /* AppDelegate.m */; };
 		691BC556224F92A60051725A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BC555224F92A60051725A /* ViewController.m */; };
 		691BC559224F92A60051725A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691BC557224F92A60051725A /* Main.storyboard */; };
@@ -15,6 +29,22 @@
 		691BC561224F92C80051725A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BC560224F92C80051725A /* main.m */; };
 		691BC56B224F92C80051725A /* BookRserveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BC56A224F92C80051725A /* BookRserveTests.m */; };
 		691BC576224F92C80051725A /* BookRserveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BC575224F92C80051725A /* BookRserveUITests.m */; };
+		691BC587224F95C10051725A /* PublicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BC586224F95C10051725A /* PublicTool.m */; };
+		691BC58B224F98E30051725A /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BC58A224F98E30051725A /* LoginView.m */; };
+		691BC592224FA5820051725A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BC591224FA5820051725A /* MainViewController.m */; };
+		691BC595224FA5990051725A /* TabTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BC594224FA5990051725A /* TabTwoViewController.m */; };
+		691BC598224FA5A60051725A /* TabThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BC597224FA5A60051725A /* TabThreeViewController.m */; };
+		692141C6225982980051BD2D /* PartyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 692141C5225982980051BD2D /* PartyModel.m */; };
+		692141C92259831B0051BD2D /* GetPartyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 692141C82259831B0051BD2D /* GetPartyModel.m */; };
+		6925A6E4225303DF0054FFD4 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925A6E3225303DF0054FFD4 /* RegisterViewController.m */; };
+		6925A6E7225303FB0054FFD4 /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925A6E6225303FB0054FFD4 /* RegisterView.m */; };
+		6925A6FD22534DE50054FFD4 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925A6F122534DE50054FFD4 /* Base64.m */; };
+		6925A6FE22534DE50054FFD4 /* CocoaSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925A6F322534DE50054FFD4 /* CocoaSecurity.m */; };
+		6925A6FF22534DE50054FFD4 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925A6F622534DE50054FFD4 /* NSString+Hash.m */; };
+		6925A70022534DE50054FFD4 /* NSString+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925A6F922534DE50054FFD4 /* NSString+Encryption.m */; };
+		6925A70122534DE50054FFD4 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925A6FC22534DE50054FFD4 /* RSA.m */; };
+		6925A70422539D740054FFD4 /* MyBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925A70322539D740054FFD4 /* MyBookCell.m */; };
+		CADBDFD1E8D8BF97613C80A9 /* libPods-BookRserve.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6D26C6ECCBE7C92F2F438F /* libPods-BookRserve.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +65,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F6D26C6ECCBE7C92F2F438F /* libPods-BookRserve.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BookRserve.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		690B9C102250470400FBEA77 /* NetWorkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkTool.h; sourceTree = "<group>"; };
+		690B9C112250470400FBEA77 /* NetWorkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkTool.m; sourceTree = "<group>"; };
+		690B9C18225054AC00FBEA77 /* HeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		690B9C19225054AC00FBEA77 /* HeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		690B9C1B225060A400FBEA77 /* HaveSellBookCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaveSellBookCell.h; sourceTree = "<group>"; };
+		690B9C1C225060A400FBEA77 /* HaveSellBookCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaveSellBookCell.m; sourceTree = "<group>"; };
+		690B9C1E2250B64400FBEA77 /* IssueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IssueViewController.h; sourceTree = "<group>"; };
+		690B9C1F2250B64400FBEA77 /* IssueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IssueViewController.m; sourceTree = "<group>"; };
+		690B9C212250BCD000FBEA77 /* SubmitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitCell.m; sourceTree = "<group>"; };
+		690B9C222250BCD000FBEA77 /* SubmitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitCell.h; sourceTree = "<group>"; };
+		690B9C242250C46300FBEA77 /* FooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FooterView.h; sourceTree = "<group>"; };
+		690B9C252250C46300FBEA77 /* FooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FooterView.m; sourceTree = "<group>"; };
+		690B9C292250C9DD00FBEA77 /* buyBookCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buyBookCell.h; sourceTree = "<group>"; };
+		690B9C2A2250C9DD00FBEA77 /* buyBookCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = buyBookCell.m; sourceTree = "<group>"; };
+		690BF66D2251A15F000C48C8 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		690BF66E2251A15F000C48C8 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		690BF66F2251A15F000C48C8 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		690BF6702251A15F000C48C8 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		690BF6712251A15F000C48C8 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		690BF6752251A527000C48C8 /* MyBookList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBookList.h; sourceTree = "<group>"; };
+		690BF6762251A527000C48C8 /* MyBookList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBookList.m; sourceTree = "<group>"; };
+		690BF6782251B132000C48C8 /* MyInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyInfoModel.h; sourceTree = "<group>"; };
+		690BF6792251B132000C48C8 /* MyInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInfoModel.m; sourceTree = "<group>"; };
+		690BF67B22523184000C48C8 /* ActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityCell.m; sourceTree = "<group>"; };
+		690BF67C22523185000C48C8 /* ActivityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityCell.h; sourceTree = "<group>"; };
+		69178E6222561807004276B6 /* TakePartBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakePartBookViewController.h; sourceTree = "<group>"; };
+		69178E6322561807004276B6 /* TakePartBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakePartBookViewController.m; sourceTree = "<group>"; };
+		69178E6522561859004276B6 /* BuyBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuyBookViewController.h; sourceTree = "<group>"; };
+		69178E6622561859004276B6 /* BuyBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyBookViewController.m; sourceTree = "<group>"; };
 		691BC54E224F92A60051725A /* BookRserve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookRserve.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		691BC551224F92A60051725A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		691BC552224F92A60051725A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +111,38 @@
 		691BC571224F92C80051725A /* BookRserveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookRserveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		691BC575224F92C80051725A /* BookRserveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookRserveUITests.m; sourceTree = "<group>"; };
 		691BC577224F92C80051725A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		691BC585224F95C10051725A /* PublicTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicTool.h; sourceTree = "<group>"; };
+		691BC586224F95C10051725A /* PublicTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicTool.m; sourceTree = "<group>"; };
+		691BC589224F98E30051725A /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		691BC58A224F98E30051725A /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		691BC590224FA5820051725A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		691BC591224FA5820051725A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		691BC593224FA5990051725A /* TabTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabTwoViewController.h; sourceTree = "<group>"; };
+		691BC594224FA5990051725A /* TabTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabTwoViewController.m; sourceTree = "<group>"; };
+		691BC596224FA5A60051725A /* TabThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabThreeViewController.h; sourceTree = "<group>"; };
+		691BC597224FA5A60051725A /* TabThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabThreeViewController.m; sourceTree = "<group>"; };
+		692141C4225982980051BD2D /* PartyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PartyModel.h; sourceTree = "<group>"; };
+		692141C5225982980051BD2D /* PartyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartyModel.m; sourceTree = "<group>"; };
+		692141C72259831B0051BD2D /* GetPartyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetPartyModel.h; sourceTree = "<group>"; };
+		692141C82259831B0051BD2D /* GetPartyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetPartyModel.m; sourceTree = "<group>"; };
+		6925A6E2225303DF0054FFD4 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		6925A6E3225303DF0054FFD4 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		6925A6E5225303FB0054FFD4 /* RegisterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterView.h; sourceTree = "<group>"; };
+		6925A6E6225303FB0054FFD4 /* RegisterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterView.m; sourceTree = "<group>"; };
+		6925A6F022534DE50054FFD4 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		6925A6F122534DE50054FFD4 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		6925A6F222534DE50054FFD4 /* CocoaSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaSecurity.h; sourceTree = "<group>"; };
+		6925A6F322534DE50054FFD4 /* CocoaSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaSecurity.m; sourceTree = "<group>"; };
+		6925A6F522534DE50054FFD4 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		6925A6F622534DE50054FFD4 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		6925A6F822534DE50054FFD4 /* NSString+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encryption.h"; sourceTree = "<group>"; };
+		6925A6F922534DE50054FFD4 /* NSString+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encryption.m"; sourceTree = "<group>"; };
+		6925A6FB22534DE50054FFD4 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		6925A6FC22534DE50054FFD4 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		6925A70222539D730054FFD4 /* MyBookCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBookCell.h; sourceTree = "<group>"; };
+		6925A70322539D740054FFD4 /* MyBookCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBookCell.m; sourceTree = "<group>"; };
+		C6718E45509947AD131FA60D /* Pods-BookRserve.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookRserve.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookRserve/Pods-BookRserve.release.xcconfig"; sourceTree = "<group>"; };
+		FD56D802CE8A45D3CB2F1C9E /* Pods-BookRserve.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookRserve.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookRserve/Pods-BookRserve.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CADBDFD1E8D8BF97613C80A9 /* libPods-BookRserve.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +171,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CEC83CB3186DB4E59D854D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F6D26C6ECCBE7C92F2F438F /* libPods-BookRserve.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		690B9C162250547600FBEA77 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				691BC590224FA5820051725A /* MainViewController.h */,
+				691BC591224FA5820051725A /* MainViewController.m */,
+				690B9C1E2250B64400FBEA77 /* IssueViewController.h */,
+				690B9C1F2250B64400FBEA77 /* IssueViewController.m */,
+				69178E6222561807004276B6 /* TakePartBookViewController.h */,
+				69178E6322561807004276B6 /* TakePartBookViewController.m */,
+				69178E6522561859004276B6 /* BuyBookViewController.h */,
+				69178E6622561859004276B6 /* BuyBookViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		690B9C172250548200FBEA77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				690B9C18225054AC00FBEA77 /* HeaderView.h */,
+				690B9C19225054AC00FBEA77 /* HeaderView.m */,
+				690B9C242250C46300FBEA77 /* FooterView.h */,
+				690B9C252250C46300FBEA77 /* FooterView.m */,
+				690B9C1B225060A400FBEA77 /* HaveSellBookCell.h */,
+				690B9C1C225060A400FBEA77 /* HaveSellBookCell.m */,
+				6925A70222539D730054FFD4 /* MyBookCell.h */,
+				6925A70322539D740054FFD4 /* MyBookCell.m */,
+				690B9C222250BCD000FBEA77 /* SubmitCell.h */,
+				690B9C212250BCD000FBEA77 /* SubmitCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		690B9C272250C99600FBEA77 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				691BC593224FA5990051725A /* TabTwoViewController.h */,
+				691BC594224FA5990051725A /* TabTwoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		690B9C282250C9A100FBEA77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				690B9C292250C9DD00FBEA77 /* buyBookCell.h */,
+				690B9C2A2250C9DD00FBEA77 /* buyBookCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		690BF66C2251A15F000C48C8 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				690BF66D2251A15F000C48C8 /* NSObject+YYModel.h */,
+				690BF66E2251A15F000C48C8 /* NSObject+YYModel.m */,
+				690BF66F2251A15F000C48C8 /* YYClassInfo.h */,
+				690BF6702251A15F000C48C8 /* YYClassInfo.m */,
+				690BF6712251A15F000C48C8 /* YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		690BF6742251A4CE000C48C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				690BF6782251B132000C48C8 /* MyInfoModel.h */,
+				690BF6792251B132000C48C8 /* MyInfoModel.m */,
+				690BF6752251A527000C48C8 /* MyBookList.h */,
+				690BF6762251A527000C48C8 /* MyBookList.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		690BF67E2252318F000C48C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				691BC596224FA5A60051725A /* TabThreeViewController.h */,
+				691BC597224FA5A60051725A /* TabThreeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		690BF67F2252319C000C48C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				690BF67C22523185000C48C8 /* ActivityCell.h */,
+				690BF67B22523184000C48C8 /* ActivityCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		691BC545224F92A60051725A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +277,8 @@
 				691BC569224F92C80051725A /* BookRserveTests */,
 				691BC574224F92C80051725A /* BookRserveUITests */,
 				691BC54F224F92A60051725A /* Products */,
+				B06233A76EDFCA17B97C4A22 /* Pods */,
+				0CEC83CB3186DB4E59D854D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +297,12 @@
 			children = (
 				691BC551224F92A60051725A /* AppDelegate.h */,
 				691BC552224F92A60051725A /* AppDelegate.m */,
-				691BC554224F92A60051725A /* ViewController.h */,
-				691BC555224F92A60051725A /* ViewController.m */,
+				691BC584224F95610051725A /* Common Tool */,
+				691BC583224F95300051725A /* Login */,
+				6925A6DF225303AA0054FFD4 /* Register */,
+				691BC58D224FA53A0051725A /* TabOne */,
+				691BC58E224FA5530051725A /* TabTwo */,
+				691BC58F224FA55E0051725A /* TabThree */,
 				691BC557224F92A60051725A /* Main.storyboard */,
 				691BC55A224F92C80051725A /* Assets.xcassets */,
 				691BC55C224F92C80051725A /* LaunchScreen.storyboard */,
@@ -132,6 +330,163 @@
 			path = BookRserveUITests;
 			sourceTree = "<group>";
 		};
+		691BC583224F95300051725A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				691BC588224F98C60051725A /* Controller */,
+				691BC58C224F98E90051725A /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		691BC584224F95610051725A /* Common Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6925A6EF22534DE50054FFD4 /* Encryptions */,
+				690BF66C2251A15F000C48C8 /* YYModel */,
+				691BC585224F95C10051725A /* PublicTool.h */,
+				691BC586224F95C10051725A /* PublicTool.m */,
+				690B9C102250470400FBEA77 /* NetWorkTool.h */,
+				690B9C112250470400FBEA77 /* NetWorkTool.m */,
+			);
+			path = "Common Tool";
+			sourceTree = "<group>";
+		};
+		691BC588224F98C60051725A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				691BC554224F92A60051725A /* ViewController.h */,
+				691BC555224F92A60051725A /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		691BC58C224F98E90051725A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				691BC589224F98E30051725A /* LoginView.h */,
+				691BC58A224F98E30051725A /* LoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		691BC58D224FA53A0051725A /* TabOne */ = {
+			isa = PBXGroup;
+			children = (
+				690BF6742251A4CE000C48C8 /* Model */,
+				690B9C172250548200FBEA77 /* View */,
+				690B9C162250547600FBEA77 /* Controller */,
+			);
+			path = TabOne;
+			sourceTree = "<group>";
+		};
+		691BC58E224FA5530051725A /* TabTwo */ = {
+			isa = PBXGroup;
+			children = (
+				690B9C282250C9A100FBEA77 /* View */,
+				690B9C272250C99600FBEA77 /* Controller */,
+			);
+			path = TabTwo;
+			sourceTree = "<group>";
+		};
+		691BC58F224FA55E0051725A /* TabThree */ = {
+			isa = PBXGroup;
+			children = (
+				692141CA225995C90051BD2D /* Model */,
+				690BF67F2252319C000C48C8 /* View */,
+				690BF67E2252318F000C48C8 /* Controller */,
+			);
+			path = TabThree;
+			sourceTree = "<group>";
+		};
+		692141CA225995C90051BD2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				692141C4225982980051BD2D /* PartyModel.h */,
+				692141C5225982980051BD2D /* PartyModel.m */,
+				692141C72259831B0051BD2D /* GetPartyModel.h */,
+				692141C82259831B0051BD2D /* GetPartyModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6925A6DF225303AA0054FFD4 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				6925A6E0225303BC0054FFD4 /* Controller */,
+				6925A6E1225303C50054FFD4 /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		6925A6E0225303BC0054FFD4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6925A6E2225303DF0054FFD4 /* RegisterViewController.h */,
+				6925A6E3225303DF0054FFD4 /* RegisterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6925A6E1225303C50054FFD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6925A6E5225303FB0054FFD4 /* RegisterView.h */,
+				6925A6E6225303FB0054FFD4 /* RegisterView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6925A6EF22534DE50054FFD4 /* Encryptions */ = {
+			isa = PBXGroup;
+			children = (
+				6925A6F022534DE50054FFD4 /* Base64.h */,
+				6925A6F122534DE50054FFD4 /* Base64.m */,
+				6925A6F222534DE50054FFD4 /* CocoaSecurity.h */,
+				6925A6F322534DE50054FFD4 /* CocoaSecurity.m */,
+				6925A6F422534DE50054FFD4 /* Hash */,
+				6925A6F722534DE50054FFD4 /* NSString+Encryption */,
+				6925A6FA22534DE50054FFD4 /* RSAEncrypt */,
+			);
+			path = Encryptions;
+			sourceTree = "<group>";
+		};
+		6925A6F422534DE50054FFD4 /* Hash */ = {
+			isa = PBXGroup;
+			children = (
+				6925A6F522534DE50054FFD4 /* NSString+Hash.h */,
+				6925A6F622534DE50054FFD4 /* NSString+Hash.m */,
+			);
+			path = Hash;
+			sourceTree = "<group>";
+		};
+		6925A6F722534DE50054FFD4 /* NSString+Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				6925A6F822534DE50054FFD4 /* NSString+Encryption.h */,
+				6925A6F922534DE50054FFD4 /* NSString+Encryption.m */,
+			);
+			path = "NSString+Encryption";
+			sourceTree = "<group>";
+		};
+		6925A6FA22534DE50054FFD4 /* RSAEncrypt */ = {
+			isa = PBXGroup;
+			children = (
+				6925A6FB22534DE50054FFD4 /* RSA.h */,
+				6925A6FC22534DE50054FFD4 /* RSA.m */,
+			);
+			path = RSAEncrypt;
+			sourceTree = "<group>";
+		};
+		B06233A76EDFCA17B97C4A22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD56D802CE8A45D3CB2F1C9E /* Pods-BookRserve.debug.xcconfig */,
+				C6718E45509947AD131FA60D /* Pods-BookRserve.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +494,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 691BC57A224F92C80051725A /* Build configuration list for PBXNativeTarget "BookRserve" */;
 			buildPhases = (
+				7CE27D409FD436A568478296 /* [CP] Check Pods Manifest.lock */,
 				691BC54A224F92A60051725A /* Sources */,
 				691BC54B224F92A60051725A /* Frameworks */,
 				691BC54C224F92A60051725A /* Resources */,
+				E8744AF165B1C9619351E511 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +614,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7CE27D409FD436A568478296 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookRserve-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8744AF165B1C9619351E511 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BookRserve/Pods-BookRserve-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookRserve/Pods-BookRserve-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		691BC54A224F92A60051725A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6925A70422539D740054FFD4 /* MyBookCell.m in Sources */,
+				690BF67A2251B132000C48C8 /* MyInfoModel.m in Sources */,
+				690B9C2B2250C9DD00FBEA77 /* buyBookCell.m in Sources */,
+				691BC587224F95C10051725A /* PublicTool.m in Sources */,
+				690B9C262250C46300FBEA77 /* FooterView.m in Sources */,
+				6925A6E4225303DF0054FFD4 /* RegisterViewController.m in Sources */,
+				690BF6722251A15F000C48C8 /* NSObject+YYModel.m in Sources */,
+				690B9C1A225054AC00FBEA77 /* HeaderView.m in Sources */,
+				691BC598224FA5A60051725A /* TabThreeViewController.m in Sources */,
+				6925A6FD22534DE50054FFD4 /* Base64.m in Sources */,
+				691BC592224FA5820051725A /* MainViewController.m in Sources */,
+				692141C92259831B0051BD2D /* GetPartyModel.m in Sources */,
+				691BC595224FA5990051725A /* TabTwoViewController.m in Sources */,
 				691BC556224F92A60051725A /* ViewController.m in Sources */,
+				690BF67D22523185000C48C8 /* ActivityCell.m in Sources */,
+				690B9C122250470400FBEA77 /* NetWorkTool.m in Sources */,
 				691BC561224F92C80051725A /* main.m in Sources */,
+				6925A6FE22534DE50054FFD4 /* CocoaSecurity.m in Sources */,
+				690B9C202250B64400FBEA77 /* IssueViewController.m in Sources */,
+				6925A6E7225303FB0054FFD4 /* RegisterView.m in Sources */,
+				6925A6FF22534DE50054FFD4 /* NSString+Hash.m in Sources */,
+				692141C6225982980051BD2D /* PartyModel.m in Sources */,
+				690B9C232250BCD000FBEA77 /* SubmitCell.m in Sources */,
+				690B9C1D225060A400FBEA77 /* HaveSellBookCell.m in Sources */,
+				690BF6772251A527000C48C8 /* MyBookList.m in Sources */,
+				691BC58B224F98E30051725A /* LoginView.m in Sources */,
+				69178E6422561807004276B6 /* TakePartBookViewController.m in Sources */,
 				691BC553224F92A60051725A /* AppDelegate.m in Sources */,
+				6925A70122534DE50054FFD4 /* RSA.m in Sources */,
+				6925A70022534DE50054FFD4 /* NSString+Encryption.m in Sources */,
+				69178E6722561859004276B6 /* BuyBookViewController.m in Sources */,
+				690BF6732251A15F000C48C8 /* YYClassInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +868,7 @@
 		};
 		691BC57B224F92C80051725A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD56D802CE8A45D3CB2F1C9E /* Pods-BookRserve.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +886,7 @@
 		};
 		691BC57C224F92C80051725A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6718E45509947AD131FA60D /* Pods-BookRserve.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
