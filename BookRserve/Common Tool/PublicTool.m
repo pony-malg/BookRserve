@@ -13,6 +13,7 @@
 #import "ViewController.h"
 #import <MBProgressHUD.h>
 #import "RegisterViewController.h"
+#import "SettingViewController.h"
 
 
 @implementation PublicTool
@@ -43,8 +44,14 @@
     [meNav.tabBarItem setImage:[[UIImage imageNamed:@"read"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
     [meNav.tabBarItem setSelectedImage:[[UIImage imageNamed:@"readSelected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
     
+    SettingViewController *setVC = [[SettingViewController alloc] init];
+    setVC.title = @"我的";
+    UINavigationController *setNav = [[UINavigationController alloc] initWithRootViewController:setVC];
+    [setNav.tabBarItem setImage:[[UIImage imageNamed:@"set"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    [setNav.tabBarItem setSelectedImage:[[UIImage imageNamed:@"setSelected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    
     UITabBarController *tabbarCon = [[UITabBarController alloc] init];
-    tabbarCon.viewControllers = @[mainNav,subNav,meNav];
+    tabbarCon.viewControllers = @[mainNav,subNav,meNav,setNav];
     
     [[[UIApplication sharedApplication] delegate] window].rootViewController = tabbarCon;
 }

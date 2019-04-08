@@ -34,14 +34,15 @@
     }];
     
     UILabel *versonLabel = [[UILabel alloc] init];
-    versonLabel.text = @"客户端";
+    versonLabel.text = @"二手书发布与淘书平台，同时不定期发布线下读书会。供用户参与交流，一起分享读书的乐趣。";
+    versonLabel.numberOfLines = 0;
     versonLabel.font = [UIFont boldSystemFontOfSize:15];
     versonLabel.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:versonLabel];
     [versonLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(iconImageView.mas_bottom).offset(5);
         make.left.right.equalTo(iconImageView);
-        make.height.mas_equalTo(20);
+        make.height.mas_equalTo(80);
     }];
 }
 /*

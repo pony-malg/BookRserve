@@ -44,6 +44,8 @@
 		6925A70022534DE50054FFD4 /* NSString+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925A6F922534DE50054FFD4 /* NSString+Encryption.m */; };
 		6925A70122534DE50054FFD4 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925A6FC22534DE50054FFD4 /* RSA.m */; };
 		6925A70422539D740054FFD4 /* MyBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925A70322539D740054FFD4 /* MyBookCell.m */; };
+		692971BA225AE93B00EC8558 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692971B9225AE93B00EC8558 /* SettingViewController.m */; };
+		692971BD225AEDA700EC8558 /* AboutUsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 692971BB225AEDA700EC8558 /* AboutUsView.m */; };
 		CADBDFD1E8D8BF97613C80A9 /* libPods-BookRserve.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6D26C6ECCBE7C92F2F438F /* libPods-BookRserve.a */; };
 /* End PBXBuildFile section */
 
@@ -141,6 +143,10 @@
 		6925A6FC22534DE50054FFD4 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
 		6925A70222539D730054FFD4 /* MyBookCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBookCell.h; sourceTree = "<group>"; };
 		6925A70322539D740054FFD4 /* MyBookCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBookCell.m; sourceTree = "<group>"; };
+		692971B8225AE93B00EC8558 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		692971B9225AE93B00EC8558 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		692971BB225AEDA700EC8558 /* AboutUsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsView.m; sourceTree = "<group>"; };
+		692971BC225AEDA700EC8558 /* AboutUsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsView.h; sourceTree = "<group>"; };
 		C6718E45509947AD131FA60D /* Pods-BookRserve.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookRserve.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookRserve/Pods-BookRserve.release.xcconfig"; sourceTree = "<group>"; };
 		FD56D802CE8A45D3CB2F1C9E /* Pods-BookRserve.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookRserve.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookRserve/Pods-BookRserve.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -303,6 +309,7 @@
 				691BC58D224FA53A0051725A /* TabOne */,
 				691BC58E224FA5530051725A /* TabTwo */,
 				691BC58F224FA55E0051725A /* TabThree */,
+				692971B7225AE90A00EC8558 /* Setting */,
 				691BC557224F92A60051725A /* Main.storyboard */,
 				691BC55A224F92C80051725A /* Assets.xcassets */,
 				691BC55C224F92C80051725A /* LaunchScreen.storyboard */,
@@ -476,6 +483,17 @@
 				6925A6FC22534DE50054FFD4 /* RSA.m */,
 			);
 			path = RSAEncrypt;
+			sourceTree = "<group>";
+		};
+		692971B7225AE90A00EC8558 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				692971B8225AE93B00EC8558 /* SettingViewController.h */,
+				692971B9225AE93B00EC8558 /* SettingViewController.m */,
+				692971BC225AEDA700EC8558 /* AboutUsView.h */,
+				692971BB225AEDA700EC8558 /* AboutUsView.m */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 		B06233A76EDFCA17B97C4A22 /* Pods */ = {
@@ -676,6 +694,7 @@
 				6925A6E4225303DF0054FFD4 /* RegisterViewController.m in Sources */,
 				690BF6722251A15F000C48C8 /* NSObject+YYModel.m in Sources */,
 				690B9C1A225054AC00FBEA77 /* HeaderView.m in Sources */,
+				692971BD225AEDA700EC8558 /* AboutUsView.m in Sources */,
 				691BC598224FA5A60051725A /* TabThreeViewController.m in Sources */,
 				6925A6FD22534DE50054FFD4 /* Base64.m in Sources */,
 				691BC592224FA5820051725A /* MainViewController.m in Sources */,
@@ -688,6 +707,7 @@
 				6925A6FE22534DE50054FFD4 /* CocoaSecurity.m in Sources */,
 				690B9C202250B64400FBEA77 /* IssueViewController.m in Sources */,
 				6925A6E7225303FB0054FFD4 /* RegisterView.m in Sources */,
+				692971BA225AE93B00EC8558 /* SettingViewController.m in Sources */,
 				6925A6FF22534DE50054FFD4 /* NSString+Hash.m in Sources */,
 				692141C6225982980051BD2D /* PartyModel.m in Sources */,
 				690B9C232250BCD000FBEA77 /* SubmitCell.m in Sources */,
