@@ -24,7 +24,7 @@
     UIImageView *iconImageView = [[UIImageView alloc] init];
     iconImageView.backgroundColor = [UIColor lightGrayColor];
     iconImageView.layer.cornerRadius = 10;
-    iconImageView.image = [UIImage imageNamed:@"logo图片"];
+    iconImageView.image = [UIImage imageNamed:@"logo"];
     iconImageView.layer.masksToBounds = YES;
     [self.view addSubview:iconImageView];
     [iconImageView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -34,7 +34,7 @@
     }];
     
     UILabel *versonLabel = [[UILabel alloc] init];
-    versonLabel.text = @"二手书发布与淘书平台，同时不定期发布线下读书会。供用户参与交流，一起分享读书的乐趣。";
+    versonLabel.text = @"二手书发布与淘书，同时不定期发布线下读书会。供用户参与交流，一起分享读书的乐趣。";
     versonLabel.numberOfLines = 0;
     versonLabel.font = [UIFont boldSystemFontOfSize:15];
     versonLabel.textAlignment = NSTextAlignmentCenter;
