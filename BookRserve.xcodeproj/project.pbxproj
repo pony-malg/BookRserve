@@ -34,6 +34,22 @@
 		691BC592224FA5820051725A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BC591224FA5820051725A /* MainViewController.m */; };
 		691BC595224FA5990051725A /* TabTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BC594224FA5990051725A /* TabTwoViewController.m */; };
 		691BC598224FA5A60051725A /* TabThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 691BC597224FA5A60051725A /* TabThreeViewController.m */; };
+		691EAA2C225DA2D000450EE9 /* UIBezierPath+ZKPuzzlePathMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 691EAA26225DA2D000450EE9 /* UIBezierPath+ZKPuzzlePathMaker.m */; };
+		691EAA2D225DA2D000450EE9 /* ZKPuzzlePathMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 691EAA28225DA2D000450EE9 /* ZKPuzzlePathMaker.m */; };
+		691EAA2E225DA2D000450EE9 /* ZKPuzzleVerifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 691EAA2A225DA2D000450EE9 /* ZKPuzzleVerifyView.m */; };
+		691EAA2F225DA2D000450EE9 /* ZKVerifyAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 691EAA2B225DA2D000450EE9 /* ZKVerifyAlertView.m */; };
+		691EAA3D225DA3A300450EE9 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691EAA31225DA3A300450EE9 /* 1.jpg */; };
+		691EAA3E225DA3A300450EE9 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691EAA32225DA3A300450EE9 /* 10.jpg */; };
+		691EAA3F225DA3A300450EE9 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691EAA33225DA3A300450EE9 /* 11.jpg */; };
+		691EAA40225DA3A300450EE9 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691EAA34225DA3A300450EE9 /* 12.jpg */; };
+		691EAA41225DA3A300450EE9 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691EAA35225DA3A300450EE9 /* 2.jpg */; };
+		691EAA42225DA3A300450EE9 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691EAA36225DA3A300450EE9 /* 3.jpg */; };
+		691EAA43225DA3A300450EE9 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691EAA37225DA3A300450EE9 /* 4.jpg */; };
+		691EAA44225DA3A300450EE9 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691EAA38225DA3A300450EE9 /* 5.jpg */; };
+		691EAA45225DA3A300450EE9 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691EAA39225DA3A300450EE9 /* 6.jpg */; };
+		691EAA46225DA3A300450EE9 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691EAA3A225DA3A300450EE9 /* 7.jpg */; };
+		691EAA47225DA3A300450EE9 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691EAA3B225DA3A300450EE9 /* 8.jpg */; };
+		691EAA48225DA3A300450EE9 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 691EAA3C225DA3A300450EE9 /* 9.jpg */; };
 		692141C6225982980051BD2D /* PartyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 692141C5225982980051BD2D /* PartyModel.m */; };
 		692141C92259831B0051BD2D /* GetPartyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 692141C82259831B0051BD2D /* GetPartyModel.m */; };
 		6925A6E4225303DF0054FFD4 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925A6E3225303DF0054FFD4 /* RegisterViewController.m */; };
@@ -123,6 +139,26 @@
 		691BC594224FA5990051725A /* TabTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabTwoViewController.m; sourceTree = "<group>"; };
 		691BC596224FA5A60051725A /* TabThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabThreeViewController.h; sourceTree = "<group>"; };
 		691BC597224FA5A60051725A /* TabThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabThreeViewController.m; sourceTree = "<group>"; };
+		691EAA23225DA2CF00450EE9 /* ZKVerifyAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKVerifyAlertView.h; sourceTree = "<group>"; };
+		691EAA25225DA2D000450EE9 /* UIBezierPath+ZKPuzzlePathMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+ZKPuzzlePathMaker.h"; sourceTree = "<group>"; };
+		691EAA26225DA2D000450EE9 /* UIBezierPath+ZKPuzzlePathMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+ZKPuzzlePathMaker.m"; sourceTree = "<group>"; };
+		691EAA27225DA2D000450EE9 /* ZKPuzzlePathMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKPuzzlePathMaker.h; sourceTree = "<group>"; };
+		691EAA28225DA2D000450EE9 /* ZKPuzzlePathMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPuzzlePathMaker.m; sourceTree = "<group>"; };
+		691EAA29225DA2D000450EE9 /* ZKPuzzleVerifyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKPuzzleVerifyView.h; sourceTree = "<group>"; };
+		691EAA2A225DA2D000450EE9 /* ZKPuzzleVerifyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPuzzleVerifyView.m; sourceTree = "<group>"; };
+		691EAA2B225DA2D000450EE9 /* ZKVerifyAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKVerifyAlertView.m; sourceTree = "<group>"; };
+		691EAA31225DA3A300450EE9 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		691EAA32225DA3A300450EE9 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		691EAA33225DA3A300450EE9 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		691EAA34225DA3A300450EE9 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		691EAA35225DA3A300450EE9 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		691EAA36225DA3A300450EE9 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		691EAA37225DA3A300450EE9 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		691EAA38225DA3A300450EE9 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		691EAA39225DA3A300450EE9 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		691EAA3A225DA3A300450EE9 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		691EAA3B225DA3A300450EE9 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		691EAA3C225DA3A300450EE9 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
 		692141C4225982980051BD2D /* PartyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PartyModel.h; sourceTree = "<group>"; };
 		692141C5225982980051BD2D /* PartyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartyModel.m; sourceTree = "<group>"; };
 		692141C72259831B0051BD2D /* GetPartyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetPartyModel.h; sourceTree = "<group>"; };
@@ -301,6 +337,8 @@
 		691BC550224F92A60051725A /* BookRserve */ = {
 			isa = PBXGroup;
 			children = (
+				691EAA30225DA3A300450EE9 /* Images */,
+				691EAA22225DA2A500450EE9 /* ThirdLibrary */,
 				691BC551224F92A60051725A /* AppDelegate.h */,
 				691BC552224F92A60051725A /* AppDelegate.m */,
 				691BC584224F95610051725A /* Common Tool */,
@@ -404,6 +442,48 @@
 				690BF67E2252318F000C48C8 /* Controller */,
 			);
 			path = TabThree;
+			sourceTree = "<group>";
+		};
+		691EAA22225DA2A500450EE9 /* ThirdLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				691EAA24225DA2D000450EE9 /* ZKVerifyAlertView */,
+				691EAA23225DA2CF00450EE9 /* ZKVerifyAlertView.h */,
+				691EAA2B225DA2D000450EE9 /* ZKVerifyAlertView.m */,
+			);
+			path = ThirdLibrary;
+			sourceTree = "<group>";
+		};
+		691EAA24225DA2D000450EE9 /* ZKVerifyAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				691EAA25225DA2D000450EE9 /* UIBezierPath+ZKPuzzlePathMaker.h */,
+				691EAA26225DA2D000450EE9 /* UIBezierPath+ZKPuzzlePathMaker.m */,
+				691EAA27225DA2D000450EE9 /* ZKPuzzlePathMaker.h */,
+				691EAA28225DA2D000450EE9 /* ZKPuzzlePathMaker.m */,
+				691EAA29225DA2D000450EE9 /* ZKPuzzleVerifyView.h */,
+				691EAA2A225DA2D000450EE9 /* ZKPuzzleVerifyView.m */,
+			);
+			path = ZKVerifyAlertView;
+			sourceTree = "<group>";
+		};
+		691EAA30225DA3A300450EE9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				691EAA31225DA3A300450EE9 /* 1.jpg */,
+				691EAA32225DA3A300450EE9 /* 10.jpg */,
+				691EAA33225DA3A300450EE9 /* 11.jpg */,
+				691EAA34225DA3A300450EE9 /* 12.jpg */,
+				691EAA35225DA3A300450EE9 /* 2.jpg */,
+				691EAA36225DA3A300450EE9 /* 3.jpg */,
+				691EAA37225DA3A300450EE9 /* 4.jpg */,
+				691EAA38225DA3A300450EE9 /* 5.jpg */,
+				691EAA39225DA3A300450EE9 /* 6.jpg */,
+				691EAA3A225DA3A300450EE9 /* 7.jpg */,
+				691EAA3B225DA3A300450EE9 /* 8.jpg */,
+				691EAA3C225DA3A300450EE9 /* 9.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		692141CA225995C90051BD2D /* Model */ = {
@@ -610,8 +690,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				691EAA44225DA3A300450EE9 /* 5.jpg in Resources */,
+				691EAA42225DA3A300450EE9 /* 3.jpg in Resources */,
+				691EAA3E225DA3A300450EE9 /* 10.jpg in Resources */,
+				691EAA48225DA3A300450EE9 /* 9.jpg in Resources */,
 				691BC55E224F92C80051725A /* LaunchScreen.storyboard in Resources */,
+				691EAA40225DA3A300450EE9 /* 12.jpg in Resources */,
+				691EAA3D225DA3A300450EE9 /* 1.jpg in Resources */,
+				691EAA47225DA3A300450EE9 /* 8.jpg in Resources */,
+				691EAA45225DA3A300450EE9 /* 6.jpg in Resources */,
+				691EAA3F225DA3A300450EE9 /* 11.jpg in Resources */,
 				691BC55B224F92C80051725A /* Assets.xcassets in Resources */,
+				691EAA41225DA3A300450EE9 /* 2.jpg in Resources */,
+				691EAA46225DA3A300450EE9 /* 7.jpg in Resources */,
+				691EAA43225DA3A300450EE9 /* 4.jpg in Resources */,
 				691BC559224F92A60051725A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -702,7 +794,10 @@
 				691BC595224FA5990051725A /* TabTwoViewController.m in Sources */,
 				691BC556224F92A60051725A /* ViewController.m in Sources */,
 				690BF67D22523185000C48C8 /* ActivityCell.m in Sources */,
+				691EAA2C225DA2D000450EE9 /* UIBezierPath+ZKPuzzlePathMaker.m in Sources */,
+				691EAA2E225DA2D000450EE9 /* ZKPuzzleVerifyView.m in Sources */,
 				690B9C122250470400FBEA77 /* NetWorkTool.m in Sources */,
+				691EAA2D225DA2D000450EE9 /* ZKPuzzlePathMaker.m in Sources */,
 				691BC561224F92C80051725A /* main.m in Sources */,
 				6925A6FE22534DE50054FFD4 /* CocoaSecurity.m in Sources */,
 				690B9C202250B64400FBEA77 /* IssueViewController.m in Sources */,
@@ -712,6 +807,7 @@
 				692141C6225982980051BD2D /* PartyModel.m in Sources */,
 				690B9C232250BCD000FBEA77 /* SubmitCell.m in Sources */,
 				690B9C1D225060A400FBEA77 /* HaveSellBookCell.m in Sources */,
+				691EAA2F225DA2D000450EE9 /* ZKVerifyAlertView.m in Sources */,
 				690BF6772251A527000C48C8 /* MyBookList.m in Sources */,
 				691BC58B224F98E30051725A /* LoginView.m in Sources */,
 				69178E6422561807004276B6 /* TakePartBookViewController.m in Sources */,

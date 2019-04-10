@@ -14,6 +14,7 @@
 #import "MyInfoModel.h"
 #import <MBProgressHUD.h>
 #import "PublicTool.h"
+#import "ZKVerifyAlertView.h"
 
 @interface TabTwoViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -87,26 +88,32 @@
     }
    // __weak typeof(self) weakSelf = self;
     cell.buyBookBlock = ^{
-        //拍书
-        [NetWorkTool buyBookWithToken:[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] UUID:b.UUID completionBlock:^(NSDictionary * _Nonnull dic) {
-            if ([[dic objectForKey:@"resault"] isEqualToString:@"true"]) {
-                // 拍下成功后，刷新
-                //刷新成功后，显示已拍下-----------
-                [PublicTool showHUDWithText:@"已拍下"];
+        ZKVerifyAlertView *verifyView = [[ZKVerifyAlertView alloc] initWithMaximumVerifyNumber:3 results:^(ZKVerifyState state) {
+            if (state == ZKVerifyStateSuccess) {
+                //拍书
+                        [NetWorkTool buyBookWithToken:[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] UUID:b.UUID completionBlock:^(NSDictionary * _Nonnull dic) {
+                            if ([[dic objectForKey:@"resault"] isEqualToString:@"true"]) {
+                                // 拍下成功后，刷新
+                                //刷新成功后，显示已拍下-----------
+                                [PublicTool showHUDWithText:@"已拍下"];
                 
-                [self.infoArr removeAllObjects];
-                [NetWorkTool getBookListWithToken:[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] completionBlock:^(NSDictionary * _Nonnull dic) {
-                    MyInfoModel *books = [MyInfoModel yy_modelWithDictionary:dic];
-                    for (MyBookList *book in books.books) {
-                        [self.infoArr addObject:book];
-                    }
-                    //主线程刷新数据
-                    dispatch_async(dispatch_get_main_queue(), ^{
-                        [self.myTable reloadRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:indexPath.row inSection:0]] withRowAnimation:UITableViewRowAnimationFade];
-                    });
-                }];
+                                [self.infoArr removeAllObjects];
+                                [NetWorkTool getBookListWithToken:[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] completionBlock:^(NSDictionary * _Nonnull dic) {
+                                    MyInfoModel *books = [MyInfoModel yy_modelWithDictionary:dic];
+                                    for (MyBookList *book in books.books) {
+                                        [self.infoArr addObject:book];
+                                    }
+                                    //主线程刷新数据
+                                    dispatch_async(dispatch_get_main_queue(), ^{
+                                        [self.myTable reloadRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:indexPath.row inSection:0]] withRowAnimation:UITableViewRowAnimationFade];
+                                    });
+                                }];
+                            }
+                        }];
             }
         }];
+        [verifyView show];
+ 
     };
     return cell;
 }

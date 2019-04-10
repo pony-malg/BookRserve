@@ -15,6 +15,7 @@
 #import "GetPartyModel.h"
 #import "YYModel.h"
 #import <MBProgressHUD.h>
+#import "ZKVerifyAlertView.h"
 
 @interface TabThreeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -82,27 +83,31 @@
         cell.addBtn.backgroundColor = [UIColor whiteColor];
     }
     cell.addClick = ^{
-        //参与读书会
-        [NetWorkTool takePartInWithToken:[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] UUID:p.UUID completionBlock:^(NSDictionary * _Nonnull dic) {
-            if ([[dic objectForKey:@"resault"] isEqualToString:@"true"]) {
-                //参与成功后，刷新
-                //刷新成功后，显示成功-----------
-                [PublicTool showHUDWithText:@"参与成功"];
-                
-                [self.arr removeAllObjects];
-                [NetWorkTool getPartyWithToken:[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] completionBlock:^(NSDictionary * _Nonnull dic) {
-                    GetPartyModel *getP = [GetPartyModel yy_modelWithDictionary:dic];
-                    for (PartyModel *party in getP.partys) {
-                        [self.arr addObject:party];
+        ZKVerifyAlertView *verifyView = [[ZKVerifyAlertView alloc] initWithMaximumVerifyNumber:3 results:^(ZKVerifyState state) {
+            if (state == ZKVerifyStateSuccess) {
+                //参与读书会
+                [NetWorkTool takePartInWithToken:[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] UUID:p.UUID completionBlock:^(NSDictionary * _Nonnull dic) {
+                    if ([[dic objectForKey:@"resault"] isEqualToString:@"true"]) {
+                        //参与成功后，刷新
+                        //刷新成功后，显示成功-----------
+                        [PublicTool showHUDWithText:@"参与成功"];
+                        
+                        [self.arr removeAllObjects];
+                        [NetWorkTool getPartyWithToken:[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] completionBlock:^(NSDictionary * _Nonnull dic) {
+                            GetPartyModel *getP = [GetPartyModel yy_modelWithDictionary:dic];
+                            for (PartyModel *party in getP.partys) {
+                                [self.arr addObject:party];
+                            }
+                            //主线程刷新数据
+                            dispatch_async(dispatch_get_main_queue(), ^{
+                                [self.myTable reloadRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:indexPath.row inSection:0]] withRowAnimation:UITableViewRowAnimationFade];
+                            });
+                        }];
                     }
-                    //主线程刷新数据
-                    dispatch_async(dispatch_get_main_queue(), ^{
-                        [self.myTable reloadRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:indexPath.row inSection:0]] withRowAnimation:UITableViewRowAnimationFade];
-                    });
                 }];
             }
         }];
-        
+        [verifyView show];
     };
     return cell;
 }
