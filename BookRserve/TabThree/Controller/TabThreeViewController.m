@@ -73,17 +73,22 @@
     if ([p.isJoined isEqualToString:@"0"]) {//未参与
         [cell.addBtn setTitle:@"点击参与" forState:UIControlStateNormal];
         cell.addBtn.userInteractionEnabled = YES;
+        [cell.addBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         cell.addBtn.backgroundColor = [PublicTool getColor];
     }else{
         [cell.addBtn setTitle:@"已参与" forState:UIControlStateNormal];
         cell.addBtn.userInteractionEnabled = NO;
-        cell.addBtn.backgroundColor = [UIColor orangeColor];
+        [cell.addBtn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
+        cell.addBtn.backgroundColor = [UIColor whiteColor];
     }
     cell.addClick = ^{
         //参与读书会
         [NetWorkTool takePartInWithToken:[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] UUID:p.UUID completionBlock:^(NSDictionary * _Nonnull dic) {
             if ([[dic objectForKey:@"resault"] isEqualToString:@"true"]) {
                 //参与成功后，刷新
+                //刷新成功后，显示成功-----------
+                [PublicTool showHUDWithText:@"参与成功"];
+                
                 [self.arr removeAllObjects];
                 [NetWorkTool getPartyWithToken:[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] completionBlock:^(NSDictionary * _Nonnull dic) {
                     GetPartyModel *getP = [GetPartyModel yy_modelWithDictionary:dic];
@@ -92,7 +97,7 @@
                     }
                     //主线程刷新数据
                     dispatch_async(dispatch_get_main_queue(), ^{
-                        [self.myTable reloadData];
+                        [self.myTable reloadRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:indexPath.row inSection:0]] withRowAnimation:UITableViewRowAnimationFade];
                     });
                 }];
             }

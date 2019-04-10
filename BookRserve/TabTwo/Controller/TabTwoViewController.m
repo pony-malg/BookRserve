@@ -72,14 +72,17 @@
     if ([b.status isEqualToString:@"0"]) {//可购
         [cell.dealBtn setTitle:@"拍下" forState:UIControlStateNormal];
         cell.dealBtn.backgroundColor = [PublicTool getColor];
+        [cell.dealBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         cell.dealBtn.userInteractionEnabled = YES;
     }else if ([b.status isEqualToString:@"1"]){//已购
         [cell.dealBtn setTitle:@"已拍下" forState:UIControlStateNormal];
-       cell.dealBtn.backgroundColor = [UIColor orangeColor];
+       cell.dealBtn.backgroundColor = [UIColor whiteColor];
+        [cell.dealBtn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
         cell.dealBtn.userInteractionEnabled = NO;
     }else{//我的发布
         [cell.dealBtn setTitle:@"我的发布" forState:UIControlStateNormal];
-        cell.dealBtn.backgroundColor = [UIColor orangeColor];
+        cell.dealBtn.backgroundColor = [UIColor whiteColor];
+        [cell.dealBtn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
         cell.dealBtn.userInteractionEnabled = NO;
     }
    // __weak typeof(self) weakSelf = self;
@@ -88,6 +91,9 @@
         [NetWorkTool buyBookWithToken:[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] UUID:b.UUID completionBlock:^(NSDictionary * _Nonnull dic) {
             if ([[dic objectForKey:@"resault"] isEqualToString:@"true"]) {
                 // 拍下成功后，刷新
+                //刷新成功后，显示已拍下-----------
+                [PublicTool showHUDWithText:@"已拍下"];
+                
                 [self.infoArr removeAllObjects];
                 [NetWorkTool getBookListWithToken:[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] completionBlock:^(NSDictionary * _Nonnull dic) {
                     MyInfoModel *books = [MyInfoModel yy_modelWithDictionary:dic];
@@ -96,8 +102,7 @@
                     }
                     //主线程刷新数据
                     dispatch_async(dispatch_get_main_queue(), ^{
-                        [self.myTable reloadData];
-                        [MBProgressHUD hideHUDForView:[[[UIApplication sharedApplication] delegate] window]  animated:YES];
+                        [self.myTable reloadRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:indexPath.row inSection:0]] withRowAnimation:UITableViewRowAnimationFade];
                     });
                 }];
             }

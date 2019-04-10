@@ -81,10 +81,11 @@
     [self.contentView addSubview:self.oldDegree];
     [self.oldDegree mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(bgUpView.mas_bottom).offset(10);
-        make.right.equalTo(self.dealBtn.mas_left).offset(-10);
+        make.right.equalTo(self.contentView.mas_centerX).offset(-10);
         make.left.equalTo(self.contentView).offset(20);
         make.height.mas_equalTo(30);
     }];
+   
     
     self.timeLabel = [[UILabel alloc] init];
     self.timeLabel.font = [UIFont systemFontOfSize:13];

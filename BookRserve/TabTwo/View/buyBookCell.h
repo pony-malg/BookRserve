@@ -24,6 +24,7 @@ typedef void (^buyBlock) (void);
 @property (nonatomic,strong)UILabel *addressLabel;
 @property (nonatomic,strong)UIButton *dealBtn;
 
+
 @property (nonatomic,copy)buyBlock buyBookBlock;
 @end
 

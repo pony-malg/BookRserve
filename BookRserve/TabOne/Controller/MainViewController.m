@@ -18,6 +18,7 @@
 #import "TakePartBookViewController.h"
 #import "BuyBookViewController.h"
 #import <MBProgressHUD.h>
+#import <MJRefresh.h>
 
 @interface MainViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -59,9 +60,26 @@
     _myTable = [[UITableView alloc] initWithFrame:[UIScreen mainScreen].bounds style:UITableViewStyleGrouped];
     _myTable.delegate = self;
     _myTable.dataSource = self;
+    __weak typeof(self)weakSelf = self;
+    _myTable.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+        [self.infoMutableArr removeAllObjects];
+        [NetWorkTool getBookListWithToken:[[NSUserDefaults standardUserDefaults] objectForKey:@"token"] completionBlock:^(NSDictionary * _Nonnull dic) {
+            MyInfoModel *books = [MyInfoModel yy_modelWithDictionary:dic];
+            for (MyBookList *book in books.books) {
+                if ([book.status isEqualToString:@"2"]) {// 2 我的发布
+                    [self.infoMutableArr addObject:book];
+                }
+            }
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [weakSelf.myTable reloadData];
+                [weakSelf.myTable.mj_header endRefreshing];
+            });
+        }];
+        
+    }];
     _myTable.estimatedRowHeight = 250;
     HeaderView *headView = [[HeaderView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 220)];
-    __weak typeof(self) weakSelf = self;
+    //__weak typeof(self) weakSelf = self;
     headView.myHeadBlock = ^(NSInteger tagNumber) {
         if (tagNumber == 1051) {
             TakePartBookViewController *vc = [[TakePartBookViewController alloc] init];
